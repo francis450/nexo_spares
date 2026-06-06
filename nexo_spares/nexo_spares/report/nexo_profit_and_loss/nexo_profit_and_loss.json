@@ -1,0 +1,20 @@
+{
+ "add_total_row": 0,
+ "columns": [],
+ "custom": 1,
+ "disabled": 0,
+ "doctype": "Report",
+ "filters": [],
+ "is_standard": "Yes",
+ "letterhead": null,
+ "module": "Nexo Spares",
+ "name": "Nexo Profit and Loss",
+ "prepared_report": 0,
+ "ref_doctype": "Sales Invoice",
+ "report_type": "Script Report",
+ "roles": [
+  {"role": "System Manager"},
+  {"role": "Accounts Manager"},
+  {"role": "Accounts User"}
+ ]
+}

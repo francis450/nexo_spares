@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"nc_todays_sales\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Today's Sales\",\"col\":4}},{\"id\":\"nc_this_months_sales\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"This Month's Sales\",\"col\":4}},{\"id\":\"nc_todays_expenses\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Today's Expenses\",\"col\":4}},{\"id\":\"spacer1\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"hdr_shortcuts\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Quick Access</b></span>\",\"col\":12}},{\"id\":\"sc_nexo_sales_report\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Nexo Sales Report\",\"col\":3}},{\"id\":\"sc_expense_report\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Expense Report\",\"col\":3}},{\"id\":\"sc_daily_sales\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Daily Sales Summary\",\"col\":3}},{\"id\":\"sc_sales_invoice\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Sales Invoice\",\"col\":3}},{\"id\":\"spacer2\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"hdr_cards\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Reports</b></span>\",\"col\":12}},{\"id\":\"card_sales_reports\",\"type\":\"card\",\"data\":{\"card_name\":\"Sales Reports\",\"col\":4}},{\"id\":\"card_expense_reports\",\"type\":\"card\",\"data\":{\"card_name\":\"Expense Reports\",\"col\":4}},{\"id\":\"card_stock_reports\",\"type\":\"card\",\"data\":{\"card_name\":\"Stock Reports\",\"col\":4}}]",
+ "content": "[{\"id\":\"nc_todays_sales\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Today's Sales\",\"col\":4}},{\"id\":\"nc_this_months_sales\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"This Month's Sales\",\"col\":4}},{\"id\":\"nc_todays_expenses\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Today's Expenses\",\"col\":4}},{\"id\":\"spacer1\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"hdr_shortcuts\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Quick Access</b></span>\",\"col\":12}},{\"id\":\"sc_nexo_sales_report\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Nexo Sales Report\",\"col\":3}},{\"id\":\"sc_nexo_pl_report\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Nexo Profit and Loss\",\"col\":3}},{\"id\":\"sc_expense_report\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Expense Report\",\"col\":3}},{\"id\":\"sc_daily_sales\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Daily Sales Summary\",\"col\":3}},{\"id\":\"spacer2\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"hdr_cards\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Reports</b></span>\",\"col\":12}},{\"id\":\"card_sales_reports\",\"type\":\"card\",\"data\":{\"card_name\":\"Sales Reports\",\"col\":4}},{\"id\":\"card_expense_reports\",\"type\":\"card\",\"data\":{\"card_name\":\"Expense Reports\",\"col\":4}},{\"id\":\"card_stock_reports\",\"type\":\"card\",\"data\":{\"card_name\":\"Stock Reports\",\"col\":4}}]",
  "creation": "2026-05-22 00:00:00.000000",
  "custom_blocks": [],
  "docstatus": 0,
@@ -34,12 +34,56 @@
   {
    "dependencies": "",
    "hidden": 0,
+   "is_query_report": 1,
+   "label": "Nexo Profit and Loss",
+   "link_count": 0,
+   "link_to": "Nexo Profit and Loss",
+   "link_type": "Report",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Nexo Top Items",
+   "link_count": 0,
+   "link_to": "Nexo Top Items",
+   "link_type": "Report",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Nexo Customer Analysis",
+   "link_count": 0,
+   "link_to": "Nexo Customer Analysis",
+   "link_type": "Report",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Nexo Payment Trends",
+   "link_count": 0,
+   "link_to": "Nexo Payment Trends",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
    "is_query_report": 0,
    "label": "Daily Sales Summary",
    "link_count": 0,
    "link_to": "nexo-daily-sales",
    "link_type": "Page",
-   "onboard": 1,
+   "onboard": 0,
    "type": "Link"
   },
   {
@@ -87,6 +131,17 @@
    "dependencies": "",
    "hidden": 0,
    "is_query_report": 1,
+   "label": "Nexo Expense vs Sales",
+   "link_count": 0,
+   "link_to": "Nexo Expense vs Sales",
+   "link_type": "Report",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 1,
    "label": "Purchase Analytics",
    "link_count": 0,
    "link_to": "Purchase Analytics",
@@ -106,11 +161,22 @@
    "dependencies": "",
    "hidden": 0,
    "is_query_report": 1,
+   "label": "Nexo Slow Stock",
+   "link_count": 0,
+   "link_to": "Nexo Slow Stock",
+   "link_type": "Report",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 1,
    "label": "Stock Ledger",
    "link_count": 0,
    "link_to": "Stock Ledger",
    "link_type": "Report",
-   "onboard": 1,
+   "onboard": 0,
    "type": "Link"
   },
   {
@@ -136,7 +202,7 @@
    "type": "Link"
   }
  ],
- "modified": "2026-05-22 00:00:00.000000",
+ "modified": "2026-06-06 00:00:00.000000",
  "modified_by": "Administrator",
  "module": "Nexo Spares",
  "name": "Reports",
@@ -170,6 +236,13 @@
    "type": "Report"
   },
   {
+   "color": "Blue",
+   "label": "Nexo Profit and Loss",
+   "link_to": "Nexo Profit and Loss",
+   "report_ref_doctype": "Sales Invoice",
+   "type": "Report"
+  },
+  {
    "color": "Orange",
    "label": "Expense Report",
    "link_to": "Expense Report",
@@ -177,18 +250,10 @@
    "type": "Report"
   },
   {
-   "color": "Blue",
+   "color": "Grey",
    "label": "Daily Sales Summary",
    "link_to": "nexo-daily-sales",
    "type": "Page"
-  },
-  {
-   "color": "Grey",
-   "format": "{} Submitted",
-   "label": "Sales Invoice",
-   "link_to": "Sales Invoice",
-   "stats_filter": "{\"docstatus\": 1}",
-   "type": "DocType"
   }
  ],
  "title": "Reports"
