@@ -5,6 +5,18 @@ app_description = "Custom app for Nexo Auto Spares"
 app_email = "franciskamande2001@gmail.com"
 app_license = "mit"
 
+doctype_js = {
+    "Item":             "public/js/item_hub.js",
+    "Customer":         "public/js/customer.js",
+    "Purchase Invoice": "public/js/purchase_invoice.js",
+    "Sales Invoice":    "public/js/sales_invoice.js",
+    "Payment Entry":    "public/js/payment_entry.js",
+}
+
+fixtures = [
+    {"dt": "Custom Field", "filters": [["module", "=", "Nexo Spares"]]},
+]
+
 # Apps
 # ------------------
 

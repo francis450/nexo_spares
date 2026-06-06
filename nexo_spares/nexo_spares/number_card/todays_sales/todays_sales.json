@@ -1,0 +1,21 @@
+{
+ "aggregate_function_based_on": "grand_total",
+ "creation": "2026-05-22 00:00:00.000000",
+ "docstatus": 0,
+ "doctype": "Number Card",
+ "document_type": "Sales Invoice",
+ "filters_json": "[[\"Sales Invoice\",\"docstatus\",\"=\",1],[\"Sales Invoice\",\"is_pos\",\"=\",1],[\"Sales Invoice\",\"posting_date\",\"timespan\",\"today\"]]",
+ "function": "Sum",
+ "idx": 0,
+ "is_public": 1,
+ "is_standard": 1,
+ "label": "Today's Sales",
+ "modified": "2026-05-22 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Nexo Spares",
+ "name": "Today's Sales",
+ "owner": "Administrator",
+ "show_percentage_stats": 1,
+ "stats_time_interval": "Daily",
+ "type": "Document Type"
+}
